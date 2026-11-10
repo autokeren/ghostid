@@ -1,0 +1,11 @@
+slug: screen/read-notifications
+title: Read and summarize notifications
+goal: Read the notification shade and summarize what needs attention.
+difficulty: easy
+time: 10-20 sec
+tools:
+  - shell
+requires:
+  - ADB engine connected
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

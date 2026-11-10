@@ -1,0 +1,15 @@
+slug: whatsapp/send-message
+title: Send a WhatsApp message
+goal: Send a text message to a contact on WhatsApp.
+difficulty: easy
+time: 30-60 sec
+tools:
+  - open_app
+  - wait_text
+  - tap_text
+  - type_text
+  - ui_dump
+requires:
+  - WhatsApp installed and signed in
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

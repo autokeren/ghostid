@@ -1,0 +1,17 @@
+slug: gemini/generate-video
+title: Generate a video with Gemini
+goal: Ask Gemini to generate a short video from a text prompt and verify the result.
+difficulty: easy
+time: 2-3 min
+tools:
+  - open_app
+  - a11y_dump
+  - a11y_swipe
+  - a11y_tap
+  - a11y_type
+  - screenshot
+requires:
+  - Gemini app installed and signed in (com.google.android.apps.bard)
+  - Google account with video generation access
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

@@ -1,0 +1,14 @@
+{
+  "name": "ghostid-discord-bot",
+  "main": "worker.js",
+  "compatibility_date": "2026-01-01",
+  "triggers": {
+    "crons": ["0 */6 * * *"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "STATE",
+      "id": "2bae2047770545c596ed942b441cb818"
+    }
+  ]
+}

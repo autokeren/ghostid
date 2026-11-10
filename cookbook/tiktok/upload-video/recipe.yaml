@@ -1,0 +1,18 @@
+slug: tiktok/upload-video
+title: Upload a video to TikTok
+goal: Upload a specific local video to TikTok with a caption and publish it.
+difficulty: medium
+time: 1-2 min
+tools:
+  - open_app
+  - a11y_dump
+  - a11y_tap
+  - a11y_type
+  - keyevent
+  - shell
+  - screenshot
+requires:
+  - TikTok installed and signed in (com.ss.android.ugc.trill)
+  - Video file on the phone (e.g. /sdcard/Movies/)
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

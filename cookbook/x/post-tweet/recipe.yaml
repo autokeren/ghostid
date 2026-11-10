@@ -1,0 +1,15 @@
+slug: x/post-tweet
+title: Post a tweet on X
+goal: Publish a text post on X from the phone.
+difficulty: easy
+time: 30-60 sec
+tools:
+  - open_app
+  - wait_text
+  - tap_text
+  - type_text
+  - ui_dump
+requires:
+  - X app installed and signed in
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

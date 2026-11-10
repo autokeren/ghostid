@@ -1,0 +1,16 @@
+slug: youtube/upload-short
+title: Upload a YouTube Short
+goal: Publish a local video as a YouTube Short from the phone.
+difficulty: medium
+time: 2-4 min
+tools:
+  - open_app
+  - wait_text
+  - tap_text
+  - ui_dump
+  - type_text
+requires:
+  - YouTube app installed and signed in
+  - Video available in the gallery
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

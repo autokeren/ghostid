@@ -1,0 +1,25 @@
+name: Discord sync
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post release to #announcements
+        env:
+          TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          CHANNEL: "1569523833508077589"
+          TITLE: ${{ github.event.release.name }}
+          URL: ${{ github.event.release.html_url }}
+          BODY: ${{ github.event.release.body }}
+        run: |
+          jq -n --arg title "$TITLE" --arg url "$URL" --arg body "$BODY" \
+            '{embeds:[{title:("New release: " + $title), url:$url, description:($body[0:1800]), color:12624458}]}' > payload.json
+          curl -sS -X POST "https://discord.com/api/v10/channels/$CHANNEL/messages" \
+            -H "Authorization: Bot $TOKEN" \
+            -H "Content-Type: application/json" \
+            --data-binary @payload.json

@@ -1,0 +1,11 @@
+slug: settings/toggle-wifi
+title: Toggle Wi-Fi and verify
+goal: Turn Wi-Fi on or off and verify the resulting state.
+difficulty: easy
+time: 5-10 sec
+tools:
+  - shell
+requires:
+  - ADB engine connected
+tested_on:
+  - Samsung Galaxy S22 Ultra (Android 16)

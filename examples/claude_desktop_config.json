@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ghostid": {
+      "type": "http",
+      "url": "https://YOUR-TUNNEL.trycloudflare.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR-TOKEN"
+      }
+    }
+  }
+}
