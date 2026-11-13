@@ -8,7 +8,7 @@
 
 - An Android phone (Android 11+, API 30+)
 - **Wi-Fi** (yes, really — even if your phone has mobile data)
-- Ghostid installed — [Google Play](https://play.google.com/store/apps/details?id=com.autokeren.ghostid) or the [GitHub free build](https://github.com/autokeren/ghostid/releases)
+- Ghostid installed — [Google Play](https://play.google.com/store/apps/details?id=com.autokeren.ghostid)
 - An AI agent that speaks MCP (Claude Desktop, Cursor, or your own)
 
 ---
